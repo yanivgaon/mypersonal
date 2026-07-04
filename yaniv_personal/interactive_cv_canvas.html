@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קורות חיים - יניב גאון</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Assistant', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            body {
+                background-color: white !important;
+                font-size: 13px; /* Slightly smaller for print to fit perfectly */
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+            }
+            .print-bg-transparent {
+                background-color: transparent !important;
+            }
+            /* Ensure background colors for badges are printed */
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+            .page-break-inside-avoid {
+                page-break-inside: avoid;
+            }
+            /* Reduce padding for print to save space */
+            .print-p-tight {
+                padding: 1rem !important;
+            }
+            .print-mb-tight {
+                margin-bottom: 0.75rem !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased py-6 print:py-0">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden print-shadow-none print:w-full">
+        
+        <!-- Header Section -->
+        <header class="bg-brand-900 text-white p-6 md:p-8 border-b-4 border-brand-500 print:p-5">
+            <h1 class="text-3xl md:text-5xl font-bold mb-1 md:mb-2">יניב גאון</h1>
+            <h2 class="text-lg md:text-2xl text-brand-100 font-semibold mb-4 md:mb-5">מנהל הדרכה, פיתוח טכנו-פדגוגי וקשרי חינוך</h2>
+            
+            <div class="flex flex-wrap gap-3 md:gap-5 text-sm md:text-base text-slate-200">
+                <div class="flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 text-brand-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    052-7281413
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 text-brand-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    yaniv.gaon@gmail.com
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 text-brand-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    רח' נטע 4 כרכור
+                </div>
+            </div>
+        </header>
+
+        <div class="p-6 md:p-8 space-y-6 print:space-y-4 print-p-tight">
+            
+            <!-- Executive Summary -->
+            <section class="bg-slate-50 p-4 md:p-5 rounded-lg border border-slate-200 shadow-sm print-bg-transparent print:border-none print:p-0 print-mb-tight">
+                <h3 class="text-lg md:text-xl font-bold text-brand-900 mb-2 flex items-center gap-2 print:mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    תקציר מנהלים
+                </h3>
+                <p class="text-slate-700 leading-relaxed text-justify text-sm md:text-base">
+                    איש חינוך וטכנולוגיה בעל ניסיון של למעלה מעשור בהובלת פרויקטים, ניהול צוותים והטמעת חדשנות טכנו-פדגוגית. משלב רקע טכני עמוק (IT ומערכות מידע) עם היכרות פנימית ומקיפה של מערכת החינוך. מומחה בפיתוח מערכי הדרכה, ניהול שותפויות מול מוסדות חינוך, וגישור בין פיתוח טכנולוגיו לצרכי משתמשי הקצה. בעל יכולת מוכחת בהנעת תהליכים מורכבים ורתימת מנהלים וצוותים לשימוש בכלים טכנולוגיים מתקדמים. <strong class="font-extrabold text-brand-900">בעל תוכנית הטמעה מוכנה ליישום בבתי ספר.</strong>
+                </p>
+            </section>
+
+            <!-- Core Competencies / Skills -->
+            <section class="page-break-inside-avoid print-mb-tight">
+                <h3 class="text-xl md:text-2xl font-bold text-brand-900 mb-3 border-b-2 border-brand-100 pb-1">תחומי מומחיות</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">פיתוח הדרכה והטמעה</span>
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">ניהול קשרי לקוחות (חינוך)</span>
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">טכנו-פדגוגיה</span>
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">ניהול פרויקטים ותקציבים</span>
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">ניהול צוותים והנחיית מנהלים</span>
+                    <span class="bg-brand-100 text-brand-800 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">חוקר ומפתח אפליקציות לימודיות</span>
+                    <span class="bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">אפיון פתרונות טכנולוגיים</span>
+                    <span class="bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">היכרות מעמיקה עם מערכת החינוך</span>
+                    <span class="bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs md:text-sm font-semibold">תמיכה טכנית וחומרה (IT)</span>
+                </div>
+            </section>
+
+            <!-- Professional Experience -->
+            <section>
+                <h3 class="text-xl md:text-2xl font-bold text-brand-900 mb-4 border-b-2 border-brand-100 pb-1">ניסיון תעסוקתי</h3>
+                
+                <div class="space-y-5 print:space-y-4">
+                    <!-- Job 1 (Combined 2012-Today) -->
+                    <div class="page-break-inside-avoid relative pl-4 border-r-4 border-brand-500 pr-4 print:border-r-2 print:border-slate-300">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                            <h4 class="text-lg font-bold text-slate-800">רכז טכנו-פדגוגי, מחנך ומורה לבגרויות</h4>
+                            <span class="text-brand-600 font-semibold text-sm mt-1 md:mt-0">2012 – היום | משרד החינוך (חט"ב ותיכון חוף כרמל)</span>
+                        </div>
+                        <ul class="list-disc list-inside text-slate-700 space-y-1.5 mt-2 text-sm md:text-base">
+                            <li><span class="font-semibold text-slate-800">הטמעת טכנולוגיות וחדשנות (2018-היום):</span> קידום וניהול השימוש בכלים דיגיטליים להשבחת ההוראה. פיתוח והעברת השתלמויות מקצועיות, ויצירת "ארגז כלים" דיגיטלי ומערכי שיעור משולבים לצוותי ההוראה.</li>
+                            <li><span class="font-semibold text-slate-800">חינוך והעצמה:</span> חינוך כיתת אומ"צ וניהול הכיתה כיחידה חברתית ולימודית, תוך מתן מענה אישי, רגשי ופדגוגי לנוער עם פערים לימודיים.</li>
+                            <li><span class="font-semibold text-slate-800">הוראה לבגרויות:</span> הגשת תלמידים לבגרויות בהיסטוריה, אזרחות, זהירות בדרכים ומתמטיקה (3 יח"ל), כולל בניית תוכניות למידה מותאמות אישית.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="page-break-inside-avoid relative pl-4 border-r-4 border-slate-300 pr-4 print:border-r-2">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                            <h4 class="text-lg font-bold text-slate-800">מנהל טכני</h4>
+                            <span class="text-slate-500 font-semibold text-sm mt-1 md:mt-0">2011 – 2012 | חברת HOT</span>
+                        </div>
+                        <p class="text-slate-700 text-sm md:text-base mt-1">
+                            ניהול מערך טכני, הובלת תהליכי שירות ופתרון תקלות מורכבות תוך עמידה ביעדי החברה.
+                        </p>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="page-break-inside-avoid relative pl-4 border-r-4 border-slate-300 pr-4 print:border-r-2">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                            <h4 class="text-lg font-bold text-slate-800">מנהל פרויקט "צמרת" (מסגרת חינוכית ללקויי למידה)</h4>
+                            <span class="text-slate-500 font-semibold text-sm mt-1 md:mt-0">2008 – 2011</span>
+                        </div>
+                        <ul class="list-disc list-inside text-slate-700 space-y-1.5 mt-2 text-sm md:text-base">
+                            <li><span class="font-semibold text-slate-800">ניהול אדמיניסטרטיבי:</span> ניהול כספים ותקציב, רכש ציוד, פיקוח על תחזוקת המבנה, עבודה שוטפת מול רשויות מגוונות, ופרסום הפקת אירועים.</li>
+                            <li><span class="font-semibold text-slate-800">הובלת צוות ופדגוגיה:</span> פיקוח, גיוס וליווי מקצועי של צוות המורים. פיתוח פתרונות מערכתיים לבעיות לימודיות ורגשיות, ועבודה שוטפת מול הורי התלמידים.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="page-break-inside-avoid relative pl-4 border-r-4 border-slate-300 pr-4 print:border-r-2">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                            <h4 class="text-lg font-bold text-slate-800">הוראה, הדרכה וטיפול בנוער</h4>
+                            <span class="text-slate-500 font-semibold text-sm mt-1 md:mt-0">2007 – 2008</span>
+                        </div>
+                        <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1 text-sm md:text-base">
+                            <li>מורה להיסטוריה ואזרחות בתיכון "הישגים" ללקויי למידה.</li>
+                            <li>מדריך בהוסטל "בית לילך" לנערות בסיכון - ליווי, השגחה וטיפול יומיומי בנערות מבתים מורכבים (כולל משמרות וסופי שבוע).</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 5 -->
+                    <div class="page-break-inside-avoid relative pl-4 border-r-4 border-slate-300 pr-4 print:border-r-2">
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+                            <h4 class="text-lg font-bold text-slate-800">תפקידי טכנולוגיה, IT ומחשוב (צה"ל ואזרחות)</h4>
+                            <span class="text-slate-500 font-semibold text-sm mt-1 md:mt-0">1995 – 2008</span>
+                        </div>
+                        <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1 text-sm md:text-base">
+                            <li><span class="font-semibold text-slate-800">רפא"ל (2003-2008):</span> טכנאי בצוות תמיכה (Help Desk).</li>
+                            <li><span class="font-semibold text-slate-800">S.C.D משגב (2002-2003):</span> בודק חומרות בפרויקטים מסווגים.</li>
+                            <li><span class="font-semibold text-slate-800">שירות קבע וסדיר בצה"ל (1995-2002):</span> נגד טכני בחטיבה מרחבית ולבנון. אחריות על כל ציוד החומרה, ניהול צוותי מחשוב ותכנון רישות החטיבה ומוצביה. טכנאי מערכות קשר במעבדה.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="page-break-inside-avoid">
+                <h3 class="text-xl md:text-2xl font-bold text-brand-900 mb-4 border-b-2 border-brand-100 pb-1">השכלה</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                    <div class="bg-white p-3 rounded border border-slate-200 shadow-sm print:border-slate-300">
+                        <h4 class="font-bold text-slate-800 text-base md:text-lg">תואר שני (M.Ed)</h4>
+                        <p class="text-brand-600 font-semibold text-xs md:text-sm">2017 – 2019 | סמינר הקיבוצים</p>
+                        <p class="text-slate-600 text-sm mt-1">מסלול "טכנולוגיה בחינוך".</p>
+                    </div>
+                    
+                    <div class="bg-white p-3 rounded border border-slate-200 shadow-sm print:border-slate-300">
+                        <h4 class="font-bold text-slate-800 text-base md:text-lg">תואר ראשון (B.A) ותעודת הוראה</h4>
+                        <p class="text-slate-500 font-semibold text-xs md:text-sm">2005 – 2007 | מכללת אורנים</p>
+                        <p class="text-slate-600 text-sm mt-1">חוג להיסטוריה ותקשורת.</p>
+                    </div>
+
+                    <div class="bg-white p-3 rounded border border-slate-200 shadow-sm print:border-slate-300">
+                        <h4 class="font-bold text-slate-800 text-base md:text-lg">לימודי הנדסת תוכנה (חלקיים)</h4>
+                        <p class="text-slate-500 font-semibold text-xs md:text-sm">2001 – 2003 | מכללת בראודה</p>
+                    </div>
+
+                    <div class="bg-white p-3 rounded border border-slate-200 shadow-sm print:border-slate-300">
+                        <h4 class="font-bold text-slate-800 text-base md:text-lg">השתלמות טכנאי מערכות מחשב</h4>
+                        <p class="text-slate-500 font-semibold text-xs md:text-sm">2000 | צה"ל (שירות קבע)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Info -->
+            <section class="page-break-inside-avoid mt-2 border-t border-slate-200 pt-4 flex flex-col md:flex-row justify-between text-sm md:text-base text-slate-700 font-semibold">
+                <div>
+                    <span class="text-brand-800 mr-2">שפות:</span> עברית (שפת אם) | אנגלית (טובה מאוד)
+                </div>
+                <div class="mt-2 md:mt-0">
+                    <span class="text-brand-800 mr-2">מיומנויות מחשוב:</span> שליטה מעולה ב-Office, Windows וכלי Google.
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>
